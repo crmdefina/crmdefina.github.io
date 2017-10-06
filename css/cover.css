@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:200,300,400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Exo+2:300,400|Exo:200,300,400,700,900');
+a,
+a:focus {
+  color: #fff;
+  text-decoration:none;
+}
+a:hover {
+	color: #f69302;
+	text-decoration:none;
+	outline:none;
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+}
+
+
+html,
+body {
+  height: 100%;
+  background-color: #333;
+	background: url(/img/space.jpg) no-repeat center center / cover;
+  color: #fff;
+  font-family: 'Exo 2', 'Exo', sans-serif;
+  text-align: center;
+  text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+}
+.bgvideo {
+  position: fixed;
+  left: 0;
+  top: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+}
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  -webkit-box-shadow: inset 0 0 5rem rgba(0,0,0,.5);
+          box-shadow: inset 0 0 5rem rgba(0,0,0,.5);
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+@media screen and (max-width:767px) {
+    .xs-left {text-align: left;}
+    .xs-right {text-align: right;}
+    .xs-center {text-align: center;}
+    .xs-justify {text-align: justify;}  
+    .inner {
+        padding: 2rem;
+        width: 100%;
+        display: block;
+    }
+    .lead h1{
+        font-size: 24px;
+        margin-top: 100px;
+        font-weight: bold;
+        margin-bottom: 20px;    
+    }
+    .lead {
+        font-size: 14px !important;
+        font-weight: 300 !important;
+    }
+}
+@media screen and (min-width:768px) and (max-width:991px) {
+    .sm-left {text-align: left;}
+    .sm-right {text-align: right;}
+    .sm-center {text-align: center;}
+    .sm-justify {text-align: justify;}
+    .inner {
+        padding: 2rem;
+        width: 100%;
+        display: block;
+    }
+    .lead h1{
+        font-size: 35px;
+        margin-top: 90px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .lead {
+        font-size: 16px !important;
+        font-weight: 300 !important;
+    }    
+}
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .md-left {text-align: left;}
+    .md-right {text-align: right;}
+    .md-center {text-align: center;}
+    .md-justify {text-align: justify;}   
+    .inner {
+        padding: 2rem;
+        width: 85%;
+        display: block;
+    }
+    .lead h1{
+        font-size: 40px;
+        margin-top: auto;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .lead {
+        font-size: 18px !important;
+        font-weight: 300 !important;
+    }    
+}
+@media screen and (min-width: 1200px) {
+    .lg-left{text-align: left;}
+    .lg-right{text-align: right;}
+    .lg-center{text-align: center;}
+    .lg-justify{text-align: justify;} 
+    .inner {
+        padding: 2rem;
+        width: 85%;
+        display: block;
+    }
+    .lead h1{
+        font-size: 45px;
+        margin-top: auto;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .lead {
+        font-size: 22px !important;
+        font-weight: 400 !important;
+    }    
+}
+
+
+
+
+
+
+.masthead {
+  margin-bottom: 2rem;
+}
+
+.masthead-brand {
+  margin-bottom: 0;
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: bold;
+  color: rgba(255,255,255,.5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: #f69302;
+  color: #f69302;
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+
+/*
+ * Cover
+ */
+
+.cover {
+    padding: 0 15px;
+    margin: 0 auto;
+    position: relative;
+}
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: bold;
+}
+
+
+/*
+ * Footer
+ */
+
+.mastfoot {
+  color: rgba(255,255,255,.5);
+}
+
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 40em) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+  }
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 62em) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+		width: 100%;
+  }
+}
