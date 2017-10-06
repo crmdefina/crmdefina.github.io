@@ -1,32 +1,23 @@
-# {%= name %}
-
-> {%= description %}
-
-{%= _.doc('bagdes.md') %}
-
 ## Features
-{%= _.doc("features.md") %}
+features.md
 
 ## Get started
-{%= _.doc("get-started.md") %}
+get-started.md
 
 ## Options
-{%= _.doc("options.md") %}
+options.md
 
 ## Callbacks
-{%= _.doc("callbacks.md") %}
+callbacks.md
 
 ## Plugin api
-{%= _.doc("plugin-api.md") %}
+plugin-api.md
 
 ## Browser Support
-{%= _.doc("browser-support.md") %}
+browser-support.md
 
 ## Test
-{%= _.doc("test.md") %}
+test.md
 
 ## Credits
-{%= _.doc("credits.md") %}
-
-## Copyright
-{%= copyright %} {%= license %}
+credits.md
