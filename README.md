@@ -1,9 +1,12 @@
-h1 заголовок первого уровня
+Demo-версия CRM-системы
 =====================
-# crmdefina.github.io
----
+crmdefina.github.io
+-----------------------------------
+
 CRM systems [crmdefina.github.io](https://crmdefina.github.io)
 
 **Жирный шрифт**
+***
 ***Наклонный жирный***
-![screenshot of sample](http://webdesign.ru.net/images/Heydon_min.jpg)
+----------------------------------------
+![screenshot of sample](https://pp.userapi.com/c841331/v841331912/2de8c/4UpgSMtYOgk.jpg)
