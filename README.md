@@ -1,6 +1,4 @@
 Demo-версия CRM-системы
-=====================
-crmdefina.github.io
 -----------------------------------
 
 CRM systems [crmdefina.github.io](https://crmdefina.github.io)
