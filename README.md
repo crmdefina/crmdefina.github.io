@@ -1,5 +1,6 @@
 ![screenshot of sample](/img/logo_crm.png)
-Demo-версия 
+
+### Demo-версия 
 # CRM-системы
 -----------------------------------
 
