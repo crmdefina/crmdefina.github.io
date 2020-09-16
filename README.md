@@ -1,4 +1,6 @@
-Demo-версия CRM-системы
+![screenshot of sample](/img/logo_crm.png)
+Demo-версия 
+# CRM-системы
 -----------------------------------
 
 CRM systems [crmdefina.github.io](https://crmdefina.github.io)
